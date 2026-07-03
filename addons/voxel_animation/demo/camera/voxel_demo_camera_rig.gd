@@ -3,7 +3,7 @@ extends Node3D
 class_name VoxelDemoCameraRig
 
 ## Minimal third-person orbit camera: mouse-look + scroll zoom.
-## Self-contained so this demo has no dependency on any other addon.
+## Self-contained
 
 @export_range(-90.0, 90.0, 0.1) var min_pitch_deg: float = -80.0
 @export_range(-90.0, 90.0, 0.1) var max_pitch_deg: float = 10.0
