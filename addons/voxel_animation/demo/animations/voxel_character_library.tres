@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="VoxelAnimationLibrary" format=3 uid="uid://dyusw6uob5ogl"]
+
+[ext_resource type="Script" uid="uid://77p13e0m511a" path="res://addons/voxel_animation/scripts/voxel_animation_library.gd" id="1_script"]
+[ext_resource type="Resource" uid="uid://blt2otbd1x5x0" path="res://addons/voxel_animation/demo/animations/seq_idle.tres" id="2_idle"]
+[ext_resource type="Script" uid="uid://bctgpwbyjl7ac" path="res://addons/voxel_animation/scripts/voxel_animation_sequence.gd" id="2_s7elb"]
+[ext_resource type="Resource" path="res://addons/voxel_animation/demo/animations/seq_walk.tres" id="3_walk"]
+[ext_resource type="Resource" path="res://addons/voxel_animation/demo/animations/seq_jump.tres" id="4_jump"]
+
+[resource]
+script = ExtResource("1_script")
+sequences = Array[ExtResource("2_s7elb")]([ExtResource("2_idle"), ExtResource("3_walk"), ExtResource("4_jump")])

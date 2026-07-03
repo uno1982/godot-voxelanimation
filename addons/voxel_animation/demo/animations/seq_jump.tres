@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="VoxelAnimationSequence" format=3]
+
+[ext_resource type="Script" uid="uid://bctgpwbyjl7ac" path="res://addons/voxel_animation/scripts/voxel_animation_sequence.gd" id="1_script"]
+[ext_resource type="PackedScene" uid="uid://q7frihcyiduq" path="res://addons/voxel_animation/demo/character_assets/SM_Voxel_Character_Jump.glb" id="2_jump"]
+
+[resource]
+script = ExtResource("1_script")
+animation_name = &"Jump"
+frames = Array[PackedScene]([ExtResource("2_jump")])
+frame_rate = 4.0
+play_mode = 1
+autoplay = false

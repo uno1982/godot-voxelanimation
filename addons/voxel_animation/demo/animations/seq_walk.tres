@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="VoxelAnimationSequence" format=3]
+
+[ext_resource type="Script" uid="uid://bctgpwbyjl7ac" path="res://addons/voxel_animation/scripts/voxel_animation_sequence.gd" id="1_script"]
+[ext_resource type="PackedScene" uid="uid://dwcywt4o15642" path="res://addons/voxel_animation/demo/character_assets/SM_Voxel_Character_walk_1.glb" id="2_walk1"]
+[ext_resource type="PackedScene" uid="uid://buehw1ijbadhf" path="res://addons/voxel_animation/demo/character_assets/SM_Voxel_Character_walk_2.glb" id="3_walk2"]
+
+[resource]
+script = ExtResource("1_script")
+animation_name = &"Walk"
+frames = Array[PackedScene]([ExtResource("2_walk1"), ExtResource("3_walk2")])
+frame_rate = 8.0
+play_mode = 0
+autoplay = true

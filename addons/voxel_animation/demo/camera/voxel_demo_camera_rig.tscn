@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/voxel_animation/demo/camera/voxel_demo_camera_rig.gd" id="1_script"]
+
+[node name="VoxelDemoCameraRig" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="."]
+spring_length = 6.0
+
+[node name="Camera3D" type="Camera3D" parent="SpringArm3D"]
+current = true
+fov = 60.0

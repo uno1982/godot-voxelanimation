@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="VoxelAnimationSequence" format=3 uid="uid://blt2otbd1x5x0"]
+
+[ext_resource type="Script" uid="uid://bctgpwbyjl7ac" path="res://addons/voxel_animation/scripts/voxel_animation_sequence.gd" id="1_script"]
+[ext_resource type="PackedScene" uid="uid://baatdy52kc3hs" path="res://addons/voxel_animation/demo/character_assets/SM_VoxelCharacter.glb" id="2_base"]
+[ext_resource type="PackedScene" uid="uid://drheratgnarpj" path="res://addons/voxel_animation/demo/character_assets/SM_Voxel_Character_Idle_1.glb" id="3_idle1"]
+
+[resource]
+script = ExtResource("1_script")
+animation_name = &"Idle"
+frames = Array[PackedScene]([ExtResource("2_base"), ExtResource("3_idle1")])
+frame_rate = 2.0
