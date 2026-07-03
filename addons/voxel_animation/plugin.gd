@@ -1,9 +1,9 @@
 @tool
 extends EditorPlugin
 
-const SEQUENCE_SCRIPT := preload("res://addons/voxel_animation/voxel_animation_sequence.gd")
-const LIBRARY_SCRIPT := preload("res://addons/voxel_animation/voxel_animation_library.gd")
-const PLAYER_SCRIPT := preload("res://addons/voxel_animation/voxel_animation_player.gd")
+const SEQUENCE_SCRIPT := preload("res://addons/voxel_animation/scripts/voxel_animation_sequence.gd")
+const LIBRARY_SCRIPT := preload("res://addons/voxel_animation/scripts/voxel_animation_library.gd")
+const PLAYER_SCRIPT := preload("res://addons/voxel_animation/scripts/voxel_animation_player.gd")
 
 
 func _enter_tree() -> void:
