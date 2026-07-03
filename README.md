@@ -1,6 +1,6 @@
 # Voxel Animation
 
-Frame-by-frame static mesh swap animation (voxel flipbook animation) for Godot 4, ported from the WildOx UE VoxelAnimation plugin.
+Frame-by-frame static mesh swap animation (voxel flipbook animation) for Godot 4, ported from the Wild Ox Studios Unreal Engine VoxelAnimation plugin.
 
 Instead of skeletal/skin animation, each frame is a separate mesh (e.g. a voxel model exported per-pose). `VoxelAnimationPlayer` ticks a timer and swaps the mesh on a target `MeshInstance3D` each frame — the 3D equivalent of a 2D sprite-sheet flipbook.
 
